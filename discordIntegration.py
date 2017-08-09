@@ -17,10 +17,6 @@ async def on_message(message):
       #add next parameter to that list
     print (parameters)
     await client.send_message(message.channel, 'it worked')
-<<<<<<< HEAD
     #added second comment
-=======
-    #asdf asdf asdf
->>>>>>> newBranch
 
 client.run(os.environ['BOT_TOKEN'])
