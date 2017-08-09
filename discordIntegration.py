@@ -17,6 +17,5 @@ async def on_message(message):
       #add next parameter to that list
     print (parameters)
     await client.send_message(message.channel, 'it worked')
-    #comment
 
 client.run(os.environ['BOT_TOKEN'])
